@@ -13,7 +13,7 @@ error = inp.setJSON(js)
 if error != None:
     pass
 
-for i in range(1717, 5151, 101):
+for i in reversed(range(0, 5151, 101)):
     for j in range(51):
         n = i+j
 
